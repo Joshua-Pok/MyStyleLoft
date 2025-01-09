@@ -1,0 +1,230 @@
+header {
+    justify-content: left;
+    gap:15px;
+}
+
+header h2 {
+    color:#532e28;
+    font-size: 25px;
+}
+
+button#backToCart {
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fcfbf6;
+    background-color: #91937b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button#backToCart:hover {
+    background-color: #869494;
+}
+
+.checkOut {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#newOrder {
+    width: 100%;
+    display: flex;
+}
+
+#leftColumn {
+    flex-grow: 1;
+    padding-right: 20px;
+    border-right: 1px solid #aeacac;
+
+}
+
+#rightColumn {
+    max-width: 300px;
+    padding-left: 20px;
+}
+
+#rightColumn h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.shippingAddress {
+    background-color: #fcfbf6;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0,0 , 0.06);
+    margin-bottom: 20px;
+}
+
+.shippingAddress i {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+.shippingAddress h2 {
+    font-size: 20px;
+}
+
+.checkOutProduct {
+    background-color: #fcfbf6;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0,0 , 0.06);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.deliveryOption {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.deliveryOption button[type="button"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    justify-content: space-between;
+    color: #fcfbf6;
+    background-color: #91937b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.deliveryOption button[type="button"]:hover {
+    background-color: #869494;
+}
+
+.orderSummary {
+    background-color: #fcfbf6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0,0 , 0.06);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.orderSummary table {
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.orderSummary tr:nth-child(2) {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.orderSummary td:nth-child(1) {
+    text-align: left;
+}
+
+.orderSummary td:nth-child(2) {
+    text-align: right;
+}
+
+.orderSummary tbody tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+
+.payment {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fcfbf6;
+}
+
+.payment label {
+    display: block;
+}
+
+.email {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #aeacac;
+    margin-bottom:  8px;
+}
+
+
+
+.expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    width: 100%; 
+    gap: 5px;
+}
+
+.expiry-cvv label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #91937b;
+    font-family: 'Poppins';
+    color: #fcfbf6;
+}
+
+input[type="submit"]:hover {
+    background-color: #869494;
+}
+
+#bill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#shipping {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
