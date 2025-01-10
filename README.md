@@ -12,6 +12,7 @@ Upon successful creation of account, a “Sign Up Successfully” message is ech
 
 Logging In
 
+![screenshot2](https://github.com/user-attachments/assets/dc0b9cf2-e359-481a-85a5-98e5bbb37581)
 
 
 Upon successful login, users are redirected to the Home page.
@@ -25,24 +26,28 @@ Upon successful login, users are redirected to the Home page.
 
 
 Browsing Home Page
+![screenshot3](https://github.com/user-attachments/assets/2720f839-c6ab-4f17-9240-2b3f44a74338)
 
 	
 
 Users can view Best Seller products at the bottom of the homepage and will be redirected to the products page if they wish to explore more.
 
 Browsing Product pages
+![screenshot4](https://github.com/user-attachments/assets/a88e918b-54de-4191-88a6-1f233a73bd46)
 
 
 
 Users can filter products by their desired category in both the men's and women's sections. They can then click on a product card to view product details, select the size and quantity, and add the item to their cart.
 
 Viewing Profile & Editing Account Information
+![screenshot5](https://github.com/user-attachments/assets/cabbccc5-cb34-41f1-a910-39d019b3d9f6)
 
 	
 
 Users can view and update their account information by clicking on the profile icon at the top right.
 
 Viewing cart / Modifying Cart
+![screenshot6](https://github.com/user-attachments/assets/c32259b3-8c81-4abd-8f55-5ef311371577)
 
 
 
