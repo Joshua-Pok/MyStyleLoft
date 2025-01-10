@@ -25,28 +25,28 @@ Upon successful login, users are redirected to the Home page.
 
 
 
-Browsing Home Page
+Browsing Home Page<br>
 ![screenshot3](https://github.com/user-attachments/assets/2720f839-c6ab-4f17-9240-2b3f44a74338)
 
 	
 
 Users can view Best Seller products at the bottom of the homepage and will be redirected to the products page if they wish to explore more.
 
-Browsing Product pages
+Browsing Product pages<br>
 ![screenshot4](https://github.com/user-attachments/assets/a88e918b-54de-4191-88a6-1f233a73bd46)
 
 
 
 Users can filter products by their desired category in both the men's and women's sections. They can then click on a product card to view product details, select the size and quantity, and add the item to their cart.
 
-Viewing Profile & Editing Account Information
+Viewing Profile & Editing Account Information<br>
 ![screenshot5](https://github.com/user-attachments/assets/cabbccc5-cb34-41f1-a910-39d019b3d9f6)
 
 	
 
 Users can view and update their account information by clicking on the profile icon at the top right.
 
-Viewing cart / Modifying Cart
+Viewing cart / Modifying Cart<br>
 ![screenshot6](https://github.com/user-attachments/assets/c32259b3-8c81-4abd-8f55-5ef311371577)
 
 
@@ -63,7 +63,9 @@ Users can remove items from their cart, adjust the quantity of each item, and se
 
 
 
-Checkout
+Checkout<br>
+
+![screenshot7](https://github.com/user-attachments/assets/52d58145-c262-4d57-a931-23a95d39925f)
 
 
 
@@ -74,9 +76,12 @@ Upon successful payment, the user will receive a confirmation email containing a
 
 
 
-Reviewing Order Status & Order Tracking
+Reviewing Order Status & Order Tracking<br>
 
-	
+
+
+	![screenshot8](https://github.com/user-attachments/assets/e236e9a8-552c-492e-8d6a-23b5da4e8053)
+
 
 	After a successful payment, users are redirected to the Order Tracking page, where the initial status of the order is set to "Paid." Any subsequent updates to the order status by the admin are immediately reflected for the user on this page. Moreover, a confirmation email is sent to the user, with a link to a page where they can edit their order if necessary.
 
